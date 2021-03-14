@@ -4,6 +4,7 @@ With limited computing, caching, storage, energy and network bandwith performanc
 RSA, DSA and ECC are the most popular Public-key cryptography used for. DSA and RSA sue different mechanism to generate key pair, for purposes of cryptographic strength, tehy are considered to be equivalent while ECC promise to provide stronger security, increased performance, yet shorter key lengths. 
 
 Key Size Comparison ( NIST ):
+
 ----------------------------------------------------------------------------
 | Symmetric Key Size (bits) |	RSA Size (bits) |	Elliptic Curve Key Size (bits)
 ----------------------------------------------------------------------------
