@@ -8,11 +8,11 @@ Key Size Comparison ( NIST ):
 ----------------------------------------------------------------------------
 | Symmetric Key Size (bits) |	RSA Size (bits) |	Elliptic Curve Key Size (bits)
 ----------------------------------------------------------------------------
-  80	                         1024	             160
-  112	                        2048	             224
-  128	                        3072	             256
-  192	                        7680	             384
-  256	                        15360	            521
+  80..........................1024............... 160
+  112..........................2048............... 224
+  128..........................3072............... 256
+  192..........................7680............... 384
+  256..........................15360............... 521
 ----------------------------------------------------------------------------
 
 ECC can be combined with DH for key exchange and encryption. Based on related research, Compareing to RSA, ECDH offers equivalent security withsmaller key sizes, which results in lower power consumption,speedier calculations, and also lower memory and transmissioncapacity (bandwidth) reserve.
