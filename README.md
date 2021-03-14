@@ -6,7 +6,6 @@ RSA, DSA and ECC are the most popular Public-key cryptography used for. DSA and 
 Key Size Comparison ( NIST ):
 ----------------------------------------------------------------------------
 | Symmetric Key Size (bits) |	RSA Size (bits) |	Elliptic Curve Key Size (bits)
-
 ----------------------------------------------------------------------------
   80	                         1024	            160
   112	                        2048	            224
@@ -20,5 +19,6 @@ As above, ECDH is choosed for this task. Key size which is equal to or above 128
 Simulation is implemented with Pure-Python ECDSA and ECDH library (tlsfuzzer).
 
 How to run:
+
 run responder.py first, then run requestor.py.
 check if both have the same shared-key and verify each other's signature. 
